@@ -361,7 +361,7 @@ def objfun2024(x0, y0, alpha, beta, xs, ys, xr, yr, R):
 # ----------------------------------------------------------------------------------
 def define_object(x0, y0, alpha, beta):
     # length of one segment (in cm)
-    lenseg = 20
+    lenseg = 25
     # set up left branche
     dy = np.linspace(0, lenseg, lenseg + 1)
     y1 = y0 + dy
